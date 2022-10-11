@@ -1,0 +1,4 @@
+name: SpawnProtection
+version: '${project.version}'
+main: org.testingstuff.spawnprotection.Main
+api-version: 1.19
