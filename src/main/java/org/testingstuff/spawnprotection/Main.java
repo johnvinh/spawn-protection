@@ -16,11 +16,6 @@ public final class Main extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this, this);
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
-
     @EventHandler
     public void onBlockBreak(BlockBreakEvent e) {
         if (isInProtectedArea(e))
