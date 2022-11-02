@@ -2,3 +2,7 @@ name: SpawnProtection
 version: '${project.version}'
 main: org.testingstuff.spawnprotection.Main
 api-version: 1.19
+commands:
+  spitem:
+    description: 'Get the item for setting the spawn protection'
+    usage: /spitem
